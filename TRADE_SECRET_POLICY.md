@@ -36,6 +36,16 @@ Violation of this policy will result in immediate action under the appropriate l
 * **Civil Sphere:** Initiation of litigation for full reparation of losses and damages, including lost profits, financial losses in funding rounds (Venture Capital), and digital asset depreciation.
 * **Immediate Termination:** Summary termination of any contracts, partnerships, or Memorandums of Understanding (MoUs) in force with the infringing party.
 
+## 5. Legal Liabilities, Penalties, and International Jurisdiction
+
+The PoWV Protocol adopts a zero-tolerance policy against Intellectual Property (IP) theft, malicious reverse engineering, and the unauthorized disclosure of strategic data. Violation of this policy will result in immediate action under the appropriate legal spheres:
+
+*   **Criminal Sphere:** Immediate filing of a criminal complaint with competent authorities (such as the Brazilian Federal Police) for crimes of unfair competition and violation of industrial secrets.
+*   **Civil Sphere:** Initiation of litigation for full reparation of losses and damages, including lost profits, financial losses in funding rounds (Venture Capital), and digital asset depreciation.
+*   **International Framework & Cross-Border Enforcement:** Since the protocol operates globally, its Intellectual Property and Trade Secrets are protected internationally under the **Berne Convention for the Protection of Literary and Artistic Works** and the **WTO TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights)**. Any international infrastructure breaches, corporate espionage, or cross-border data leaks will be prosecuted under the applicable international treaties and the domestic laws of the infringer's jurisdiction.
+*   **Legal Recognition of GitHub as Custody Framework:** The infrastructure of this GitHub Organization, including its private repositories, cryptographic commit signatures, timestamps, and access logs, is legally recognized by the controlling entity as its official **Digital Custody and Trade Secret Environment**. This digital footprint constitutes immutable forensic evidence of authorship, active protection measures, and prior art under both national and international IP enforcement frameworks.
+*   **Immediate Termination:** Summary termination of any contracts, partnerships, or Memorandums of Understanding (MoUs) in force with the infringing party.
+
 ---
 **Corporate Governance and IP Ownership**
 
