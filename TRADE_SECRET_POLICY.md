@@ -37,6 +37,16 @@ Violation of this policy will result in immediate action under the appropriate l
 * **Immediate Termination:** Summary termination of any contracts, partnerships, or Memorandums of Understanding (MoUs) in force with the infringing party.
 
 ---
-**Governance and Administration**
-Gabriel de Almeida
-*Founder & Lead Architect | PoWV Protocol*
+**Corporate Governance and IP Ownership**
+
+All proprietary rights, trade secrets, and intellectual properties registered or associated with the **PoWV Protocol** are strictly held under the custody and ownership of:
+
+*   **Corporate Name (Razão Social):** 58.046.660 Gabriel de Almeida Santos Silva
+*   **National Corporate Registry (CNPJ):** 58.046.660/0001-93
+*   **Country of Origin / Headquarter:** Brazil (BR)
+
+**Administration:**
+Gabriel de Almeida Santos Silva
+*Founder & Lead Architect*
+
+© 2026 PoWV Protocol. All Rights Reserved.
