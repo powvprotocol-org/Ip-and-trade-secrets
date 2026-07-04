@@ -27,24 +27,25 @@ The business secret protection policy within the PoWV Protocol is active and str
 * **Physical Access (Test Bench):** No physical or legal person (including developers, partners, investors, or consultants) is authorized to inspect the hardware test bench or access development terminals without the prior signing of a strict **Non-Disclosure Agreement (NDA)**.
 * **IP Assignment Clause:** Any third-party contribution to the ecosystem (code or hardware) is conditional upon the full and irrevocable assignment of patrimonial Intellectual Property rights in favor of the protocol's central governance.
 
-## 4. Legal Liabilities and Penalties
+## 4. Legal Liabilities, Penalties, and International Enforcement
 
-The PoWV Protocol adopts a zero-tolerance policy against Intellectual Property theft, malicious reverse engineering, and the leaking of strategic data. 
+The PoWV Protocol adopts a zero-tolerance policy against Intellectual Property (IP) theft, malicious reverse engineering, and the unauthorized disclosure of strategic data. 
 
-Violation of this policy will result in immediate action under the appropriate legal spheres:
-* **Criminal Sphere:** Immediate filing of a criminal complaint with competent authorities (such as the Federal Police) for crimes of unfair competition and violation of industrial secrets.
-* **Civil Sphere:** Initiation of litigation for full reparation of losses and damages, including lost profits, financial losses in funding rounds (Venture Capital), and digital asset depreciation.
-* **Immediate Termination:** Summary termination of any contracts, partnerships, or Memorandums of Understanding (MoUs) in force with the infringing party.
+### 4.1 Domestic Penalties & Liabilities (Brazil)
+Violation of this policy within the national territory or by Brazilian citizens will result in immediate action under the appropriate legal spheres:
+*   **Criminal Prosecution:** Immediate filing of a criminal complaint with competent authorities (such as the Brazilian Federal Police) for crimes of unfair competition and violation of industrial secrets under Law No. 9,279/96.
+*   **Civil Litigation:** Initiation of civil lawsuits for full reparation of losses and damages, including lost profits, financial damages in funding rounds (Venture Capital), and digital asset depreciation.
+*   **Contractual Breaches:** Summary termination of any contracts, partnerships, employment agreements, or Memorandums of Understanding (MoUs) in force with the infringing party, triggering full contract penalties.
 
-## 5. Legal Liabilities, Penalties, and International Jurisdiction
+### 4.2 International Framework & Cross-Border Enforcement
+Since the protocol operates globally, its Intellectual Property and Trade Secrets are protected internationally outside of Brazil:
+*   **Applicable Treaties:** Protection is strictly enforced under the **Berne Convention for the Protection of Literary and Artistic Works** and the **WTO TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights)**.
+*   **Global Prosecution:** Any international infrastructure breaches, corporate espionage, or cross-border data leaks will be prosecuted under applicable international treaties and the domestic laws of the infringer's jurisdiction (e.g., DTSA in the US or EU Trade Secrets Directive).
 
-The PoWV Protocol adopts a zero-tolerance policy against Intellectual Property (IP) theft, malicious reverse engineering, and the unauthorized disclosure of strategic data. Violation of this policy will result in immediate action under the appropriate legal spheres:
-
-*   **Criminal Sphere:** Immediate filing of a criminal complaint with competent authorities (such as the Brazilian Federal Police) for crimes of unfair competition and violation of industrial secrets.
-*   **Civil Sphere:** Initiation of litigation for full reparation of losses and damages, including lost profits, financial losses in funding rounds (Venture Capital), and digital asset depreciation.
-*   **International Framework & Cross-Border Enforcement:** Since the protocol operates globally, its Intellectual Property and Trade Secrets are protected internationally under the **Berne Convention for the Protection of Literary and Artistic Works** and the **WTO TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights)**. Any international infrastructure breaches, corporate espionage, or cross-border data leaks will be prosecuted under the applicable international treaties and the domestic laws of the infringer's jurisdiction.
-*   **Legal Recognition of GitHub as Custody Framework:** The infrastructure of this GitHub Organization, including its private repositories, cryptographic commit signatures, timestamps, and access logs, is legally recognized by the controlling entity as its official **Digital Custody and Trade Secret Environment**. This digital footprint constitutes immutable forensic evidence of authorship, active protection measures, and prior art under both national and international IP enforcement frameworks.
-*   **Immediate Termination:** Summary termination of any contracts, partnerships, or Memorandums of Understanding (MoUs) in force with the infringing party.
+### 4.3 Legal Recognition of GitHub as Custody Framework
+To establish clear evidence of trade secret active protection measures, the protocol defines that:
+*   **Digital Custody Environment:** The infrastructure of this GitHub Organization, including its private repositories, cryptographic commit signatures, timestamps, and access logs, is legally recognized as the official Digital Custody and Trade Secret Environment of the controlling entity.
+*   **Forensic Evidence:** This digital footprint constitutes immutable forensic evidence of authorship, active protection measures, and prior art under both national and international IP enforcement frameworks in any court of law.
 
 ---
 **Corporate Governance and IP Ownership**
