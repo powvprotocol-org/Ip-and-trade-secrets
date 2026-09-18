@@ -9,14 +9,45 @@ Industrial connectivity is not only a networking problem. It is an evidence-cont
 
 ## Public requirements by condition
 
-| Condition                 | Assurance risk                                         | Public requirement                                                |
-| ------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
-| Stable local connectivity | Overreliance on a central operational database         | Preserve independent reviewability                                |
-| Intermittent connectivity | Events arrive outside their original temporal context  | Preserve ordered and accountable reconciliation                   |
-| Multiple custody points   | Responsibility becomes fragmented                      | Maintain reviewable handoffs                                      |
-| Heterogeneous equipment   | Source semantics differ across sites                   | Normalize assurance meaning without exposing proprietary adapters |
-| Remote operations         | Limited availability for immediate external validation | Retain durable evidence for controlled verification               |
-| Human-assisted capture    | Incomplete or inconsistent context                     | Apply accountable submission and exception handling               |
+#### Stable local connectivity
+
+* **Assurance risk:** Overreliance on a central operational database
+* **Public requirement:** Preserve independent reviewability
+
+***
+
+#### Intermittent connectivity
+
+* **Assurance risk:** Events arrive outside their original temporal context
+* **Public requirement:** Preserve ordered and accountable reconciliation
+
+***
+
+#### Multiple custody points
+
+* **Assurance risk:** Responsibility becomes fragmented
+* **Public requirement:** Maintain reviewable handoffs
+
+***
+
+#### Heterogeneous equipment
+
+* **Assurance risk:** Source semantics differ across sites
+* **Public requirement:** Normalize assurance meaning without exposing proprietary adapters
+
+***
+
+#### Remote operations
+
+* **Assurance risk:** Limited availability for immediate external validation
+* **Public requirement:** Retain durable evidence for controlled verification
+
+***
+
+#### Human-assisted capture
+
+* **Assurance risk:** Incomplete or inconsistent context
+* **Public requirement:** Apply accountable submission and exception handling
 
 ## Transport independence
 

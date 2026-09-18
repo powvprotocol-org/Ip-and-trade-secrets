@@ -11,14 +11,45 @@ The central risk is the **physical-to-digital trust gap**: the distance between 
 
 ## Where the gap appears
 
-| Operational condition                   | Trust weakness                                                               | Consequence                               |
-| --------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------- |
-| Manual or paper-based capture           | Records can be incomplete, delayed, or altered                               | Higher reconciliation and audit cost      |
-| Fragmented systems                      | Different parties maintain incompatible versions of the same event           | Disputes and weak traceability            |
-| Single-source validation                | One operator or database becomes the final authority                         | Concentrated manipulation risk            |
-| Weak custody evidence                   | Asset identity can become disconnected from movement or measurement          | Substitution and duplicate-claim exposure |
-| Connectivity constraints                | Events may arrive late or outside their original context                     | Loss of continuity and reviewability      |
-| Tokenization without physical assurance | A digital representation can outlive the credibility of its underlying claim | Financial and compliance risk             |
+#### Manual or paper-based capture
+
+* **Trust weakness:** Records can be incomplete, delayed, or altered
+* **Consequence:** Higher reconciliation and audit cost
+
+***
+
+#### Fragmented systems
+
+* **Trust weakness:** Different parties maintain incompatible versions of the same event
+* **Consequence:** Disputes and weak traceability
+
+***
+
+#### Single-source validation
+
+* **Trust weakness:** One operator or database becomes the final authority
+* **Consequence:** Concentrated manipulation risk
+
+***
+
+#### Weak custody evidence
+
+* **Trust weakness:** Asset identity can become disconnected from movement or measurement
+* **Consequence:** Substitution and duplicate-claim exposure
+
+***
+
+#### Connectivity constraints
+
+* **Trust weakness:** Events may arrive late or outside their original context
+* **Consequence:** Loss of continuity and reviewability
+
+***
+
+#### Tokenization without physical assurance
+
+* **Trust weakness:** A digital representation can outlive the credibility of its underlying claim
+* **Consequence:** Financial and compliance risk
 
 ## The PoWV position
 

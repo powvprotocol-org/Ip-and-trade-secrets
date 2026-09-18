@@ -7,7 +7,7 @@ icon: flask-vial
 
 This page records a sanitized public summary of a controlled local validation of the PoWV Virtual Lab proof of concept.
 
-![PoWV software validation scorecard](../.gitbook/assets/validation-scorecard.svg)
+![PoWV software validation scorecard](https://1151534167-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FWO75canbSRCuzukBrP8n%2Fuploads%2FnGrH96FqmjcsymyncTaG%2Fvalidation-scorecard.svg?alt=media)
 
 {% hint style="warning" %}
 “Zero executed failures” refers only to the 25 test cases included in the selected validation set. A separate initial harness invocation and repository-wide test collection encountered reproducibility issues described below.
@@ -40,13 +40,43 @@ The audit did **not** evaluate production deployment, certification, legal compl
 
 ## Executed results
 
-| Test category                                           | Executed cases | Result     |                      Evidence level |
-| ------------------------------------------------------- | -------------- | ---------- | ----------------------------------: |
-| Selected hardening checks across three independent runs | 18             | Passed     |                Verified in this run |
-| Simulated telemetry check                               | 1              | Passed     |                Verified in this run |
-| Simulated tamper and malformed-input scenarios          | 5              | Passed     |                Verified in this run |
-| Local verification smoke check                          | 1              | Passed     |                Verified in this run |
-| **Total**                                               | **25**         | **Passed** | **Controlled software environment** |
+#### Selected hardening checks across three independent runs
+
+* **Executed cases:** 18
+* **Result:** Passed
+* **Evidence level:** Verified in this run
+
+***
+
+#### Simulated telemetry check
+
+* **Executed cases:** 1
+* **Result:** Passed
+* **Evidence level:** Verified in this run
+
+***
+
+#### Simulated tamper and malformed-input scenarios
+
+* **Executed cases:** 5
+* **Result:** Passed
+* **Evidence level:** Verified in this run
+
+***
+
+#### Local verification smoke check
+
+* **Executed cases:** 1
+* **Result:** Passed
+* **Evidence level:** Verified in this run
+
+***
+
+#### Total
+
+* **Executed cases:** **25**
+* **Result:** **Passed**
+* **Evidence level:** **Controlled software environment**
 
 ## Observed capabilities
 

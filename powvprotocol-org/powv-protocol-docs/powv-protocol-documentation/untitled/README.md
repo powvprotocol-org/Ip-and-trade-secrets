@@ -133,14 +133,45 @@ where `R` represents applicable rules and `B` represents business or operational
 
 ### Trust model by layer
 
-| Layer                      | What it establishes                                                               | What it does not establish by itself                     |
-| -------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| Physical event             | The real-world occurrence under observation                                       | A complete digital description of the event              |
-| Measurement                | A device-generated observation of a defined property                              | Absolute truth, correct calibration, or complete context |
-| Edge attestation           | Device-linked authorship, integrity, time, and relevant metadata                  | That the physical setup was legitimate or uncompromised  |
-| Transport                  | Delivery across RS-485, MQTT/TLS, LTE, satellite, Wi-Fi, or another channel       | The semantic truth of the payload                        |
-| Verification and anchoring | Signature validation, integrity checks, ordering, and durable evidence references | The correctness of every upstream physical condition     |
-| Interpretation             | Rules, analytics, AI, compliance analysis, and business meaning                   | Authority to overwrite the originating evidence          |
+#### Physical event
+
+* **What it establishes:** The real-world occurrence under observation
+* **What it does not establish by itself:** A complete digital description of the event
+
+***
+
+#### Measurement
+
+* **What it establishes:** A device-generated observation of a defined property
+* **What it does not establish by itself:** Absolute truth, correct calibration, or complete context
+
+***
+
+#### Edge attestation
+
+* **What it establishes:** Device-linked authorship, integrity, time, and relevant metadata
+* **What it does not establish by itself:** That the physical setup was legitimate or uncompromised
+
+***
+
+#### Transport
+
+* **What it establishes:** Delivery across RS-485, MQTT/TLS, LTE, satellite, Wi-Fi, or another channel
+* **What it does not establish by itself:** The semantic truth of the payload
+
+***
+
+#### Verification and anchoring
+
+* **What it establishes:** Signature validation, integrity checks, ordering, and durable evidence references
+* **What it does not establish by itself:** The correctness of every upstream physical condition
+
+***
+
+#### Interpretation
+
+* **What it establishes:** Rules, analytics, AI, compliance analysis, and business meaning
+* **What it does not establish by itself:** Authority to overwrite the originating evidence
 
 This model deliberately avoids requiring trust in the messenger. The transport layer may be unreliable or even hostile while the receiving system still verifies whether the evidence remains cryptographically bound to its origin.
 

@@ -12,15 +12,52 @@ PoWV’s proof of concept explores compact event representations. Current capaci
 
 ## Evaluation dimensions
 
-| Dimension                 | What an evaluation should distinguish                                                        | Current evidence status                                                 |
-| ------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| Application payload       | Event data before transport-related overhead                                                 | Engineering estimates; exact internal characteristics are not disclosed |
-| Encoding                  | Representation-related expansion relative to the application payload                         | A factor in estimates; no measured comparison established               |
-| Total transmitted traffic | Payload plus overhead at a declared measurement boundary, including relevant control traffic | Not measured in the available validation                                |
-| Retransmissions           | Additional traffic from repeated delivery attempts                                           | Not measured                                                            |
-| Operating conditions      | Workload, connection conditions, and observation period                                      | No field-performance validation established                             |
-| Latency and throughput    | Delivery time and successfully processed events per unit of time                             | Not measured                                                            |
-| Energy consumption        | Energy required under a defined workload and measurement boundary                            | Not measured                                                            |
+#### Application payload
+
+* **What an evaluation should distinguish:** Event data before transport-related overhead
+* **Current evidence status:** Engineering estimates; exact internal characteristics are not disclosed
+
+***
+
+#### Encoding
+
+* **What an evaluation should distinguish:** Representation-related expansion relative to the application payload
+* **Current evidence status:** A factor in estimates; no measured comparison established
+
+***
+
+#### Total transmitted traffic
+
+* **What an evaluation should distinguish:** Payload plus overhead at a declared measurement boundary, including relevant control traffic
+* **Current evidence status:** Not measured in the available validation
+
+***
+
+#### Retransmissions
+
+* **What an evaluation should distinguish:** Additional traffic from repeated delivery attempts
+* **Current evidence status:** Not measured
+
+***
+
+#### Operating conditions
+
+* **What an evaluation should distinguish:** Workload, connection conditions, and observation period
+* **Current evidence status:** No field-performance validation established
+
+***
+
+#### Latency and throughput
+
+* **What an evaluation should distinguish:** Delivery time and successfully processed events per unit of time
+* **Current evidence status:** Not measured
+
+***
+
+#### Energy consumption
+
+* **What an evaluation should distinguish:** Energy required under a defined workload and measurement boundary
+* **Current evidence status:** Not measured
 
 ## Interpreting capacity estimates
 
@@ -42,7 +79,7 @@ Only results supported by retained measurements and a disclosure review should b
 
 ## Relationship to software validation
 
-The existing [Validation Evidence](validation-evidence.md) documents selected functional software checks. Those results support only the behaviors tested; they do not validate capacity estimates or physical-network performance.
+The existing Validation Evidence documents selected functional software checks. Those results support only the behaviors tested; they do not validate capacity estimates or physical-network performance.
 
 ## Disclosure boundary
 

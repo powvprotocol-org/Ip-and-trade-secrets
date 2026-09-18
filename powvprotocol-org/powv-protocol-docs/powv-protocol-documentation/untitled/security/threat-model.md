@@ -7,17 +7,66 @@ icon: radar
 
 The public threat model describes what the architecture must resist or make visible without disclosing how individual controls are implemented.
 
-| Threat                    | Failure mode                                                            | Assurance response                                           |
-| ------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Source substitution       | Evidence is associated with the wrong asset, device, place, or operator | Strengthen provenance and contextual consistency             |
-| Measurement manipulation  | A reported physical value does not reflect the relevant event           | Require corroboration appropriate to risk                    |
-| Record alteration         | Evidence changes after origin without authorized trace                  | Make integrity failure detectable                            |
-| Replay or duplicate claim | A prior event is reused as if it were new                               | Surface uniqueness conflicts                                 |
-| Custody break             | Asset and evidence histories diverge during handoff                     | Preserve reviewable continuity                               |
-| Context spoofing          | Time, location, identity, or operational context is misrepresented      | Evaluate cross-context consistency                           |
-| Insider collusion         | Multiple accountable parties coordinate manipulation                    | Reduce dependence on one authority and preserve review paths |
-| Connectivity disruption   | Evidence is delayed, fragmented, or lost                                | Support durable and controlled reconciliation                |
-| Downstream misuse         | A valid assurance outcome is used outside its authorized purpose        | Enforce purpose and access governance                        |
+#### Source substitution
+
+* **Failure mode:** Evidence is associated with the wrong asset, device, place, or operator
+* **Assurance response:** Strengthen provenance and contextual consistency
+
+***
+
+#### Measurement manipulation
+
+* **Failure mode:** A reported physical value does not reflect the relevant event
+* **Assurance response:** Require corroboration appropriate to risk
+
+***
+
+#### Record alteration
+
+* **Failure mode:** Evidence changes after origin without authorized trace
+* **Assurance response:** Make integrity failure detectable
+
+***
+
+#### Replay or duplicate claim
+
+* **Failure mode:** A prior event is reused as if it were new
+* **Assurance response:** Surface uniqueness conflicts
+
+***
+
+#### Custody break
+
+* **Failure mode:** Asset and evidence histories diverge during handoff
+* **Assurance response:** Preserve reviewable continuity
+
+***
+
+#### Context spoofing
+
+* **Failure mode:** Time, location, identity, or operational context is misrepresented
+* **Assurance response:** Evaluate cross-context consistency
+
+***
+
+#### Insider collusion
+
+* **Failure mode:** Multiple accountable parties coordinate manipulation
+* **Assurance response:** Reduce dependence on one authority and preserve review paths
+
+***
+
+#### Connectivity disruption
+
+* **Failure mode:** Evidence is delayed, fragmented, or lost
+* **Assurance response:** Support durable and controlled reconciliation
+
+***
+
+#### Downstream misuse
+
+* **Failure mode:** A valid assurance outcome is used outside its authorized purpose
+* **Assurance response:** Enforce purpose and access governance
 
 ## Residual risk
 

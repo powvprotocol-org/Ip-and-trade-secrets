@@ -11,14 +11,51 @@ PoWV is designed for decisions in which an unreliable physical claim can create 
 
 ## Sector decision matrix
 
-| Sector                         | Claim requiring stronger evidence                                                          | Decision supported                                         | Intended value                        |
-| ------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------- |
-| Supply chain and logistics     | A shipment, custody transfer, or inventory event occurred as reported                      | Acceptance, reconciliation, financing, or dispute review   | Reduced claim ambiguity               |
-| Agriculture and commodities    | A commodity's quantity, origin, storage, or movement is supported by coherent evidence     | Warehouse, trade, insurance, or finance review             | Stronger asset confidence             |
-| Recycling and circular economy | Material was collected, transferred, processed, or recovered under the declared conditions | Environmental reporting, payment, or asset issuance review | More defensible environmental claims  |
-| Insurance                      | A covered physical condition or event meets the policy's evidentiary requirements          | Claim triage or parametric decision support                | Faster and more consistent evaluation |
-| Government and infrastructure  | Delivery or operational performance is supported by traceable evidence                     | Inspection, payment authorization, oversight, or audit     | Better accountability                 |
-| RWA infrastructure             | A digital representation has a defensible physical evidence basis                          | Eligibility, risk review, custody, or settlement support   | Reduced physical-oracle risk          |
+#### Supply chain and logistics
+
+* **Claim requiring stronger evidence:** A shipment, custody transfer, or inventory event occurred as reported
+* **Decision supported:** Acceptance, reconciliation, financing, or dispute review
+* **Intended value:** Reduced claim ambiguity
+
+***
+
+#### Agriculture and commodities
+
+* **Claim requiring stronger evidence:** A commodity's quantity, origin, storage, or movement is supported by coherent evidence
+* **Decision supported:** Warehouse, trade, insurance, or finance review
+* **Intended value:** Stronger asset confidence
+
+***
+
+#### Recycling and circular economy
+
+* **Claim requiring stronger evidence:** Material was collected, transferred, processed, or recovered under the declared conditions
+* **Decision supported:** Environmental reporting, payment, or asset issuance review
+* **Intended value:** More defensible environmental claims
+
+***
+
+#### Insurance
+
+* **Claim requiring stronger evidence:** A covered physical condition or event meets the policy's evidentiary requirements
+* **Decision supported:** Claim triage or parametric decision support
+* **Intended value:** Faster and more consistent evaluation
+
+***
+
+#### Government and infrastructure
+
+* **Claim requiring stronger evidence:** Delivery or operational performance is supported by traceable evidence
+* **Decision supported:** Inspection, payment authorization, oversight, or audit
+* **Intended value:** Better accountability
+
+***
+
+#### RWA infrastructure
+
+* **Claim requiring stronger evidence:** A digital representation has a defensible physical evidence basis
+* **Decision supported:** Eligibility, risk review, custody, or settlement support
+* **Intended value:** Reduced physical-oracle risk
 
 ## Reusable application pattern
 

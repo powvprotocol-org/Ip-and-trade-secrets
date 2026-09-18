@@ -7,13 +7,43 @@ icon: objects-column
 
 Deployment profiles describe operating conditions without prescribing proprietary hardware or software.
 
-| Profile           | Operating context                          | Assurance emphasis                              | Typical constraint                |
-| ----------------- | ------------------------------------------ | ----------------------------------------------- | --------------------------------- |
-| Fixed Site        | Industrial or warehouse environment        | Stable provenance and repeatable review         | Legacy integration                |
-| Corridor          | Road, rail, or multimodal movement         | Custody continuity and exception visibility     | Multiple organizations            |
-| Remote            | Sparse or intermittent connectivity        | Evidence durability and reconciliation          | Limited bandwidth or availability |
-| Mobile Field      | Human-operated collection or inspection    | Context completeness and accountable submission | Variable devices and conditions   |
-| Enterprise Hybrid | Existing operational and financial systems | Interoperability and controlled disclosure      | Heterogeneous data governance     |
+#### Fixed Site
+
+* **Operating context:** Industrial or warehouse environment
+* **Assurance emphasis:** Stable provenance and repeatable review
+* **Typical constraint:** Legacy integration
+
+***
+
+#### Corridor
+
+* **Operating context:** Road, rail, or multimodal movement
+* **Assurance emphasis:** Custody continuity and exception visibility
+* **Typical constraint:** Multiple organizations
+
+***
+
+#### Remote
+
+* **Operating context:** Sparse or intermittent connectivity
+* **Assurance emphasis:** Evidence durability and reconciliation
+* **Typical constraint:** Limited bandwidth or availability
+
+***
+
+#### Mobile Field
+
+* **Operating context:** Human-operated collection or inspection
+* **Assurance emphasis:** Context completeness and accountable submission
+* **Typical constraint:** Variable devices and conditions
+
+***
+
+#### Enterprise Hybrid
+
+* **Operating context:** Existing operational and financial systems
+* **Assurance emphasis:** Interoperability and controlled disclosure
+* **Typical constraint:** Heterogeneous data governance
 
 ## Profile selection
 

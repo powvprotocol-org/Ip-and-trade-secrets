@@ -11,11 +11,24 @@ The public PoWV architecture separates responsibility into three trust domains. 
 
 ## Domain responsibilities
 
-| Domain             | Owns                                                                               | Does not establish alone                                |
-| ------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Physical Context   | The asset, event, measurement, custody, time, and location being claimed           | Whether the claim is sufficiently trustworthy           |
-| Evidence Assurance | The evaluation of provenance, integrity, uniqueness, continuity, and reviewability | The legal or commercial meaning of the claim            |
-| Authorized Use     | The institutional or system decision that may rely on an assurance outcome         | The truth of the underlying physical event by assertion |
+#### Physical Context
+
+* **Owns:** The asset, event, measurement, custody, time, and location being claimed
+* **Does not establish alone:** Whether the claim is sufficiently trustworthy
+
+***
+
+#### Evidence Assurance
+
+* **Owns:** The evaluation of provenance, integrity, uniqueness, continuity, and reviewability
+* **Does not establish alone:** The legal or commercial meaning of the claim
+
+***
+
+#### Authorized Use
+
+* **Owns:** The institutional or system decision that may rely on an assurance outcome
+* **Does not establish alone:** The truth of the underlying physical event by assertion
 
 ## Why separation matters
 
