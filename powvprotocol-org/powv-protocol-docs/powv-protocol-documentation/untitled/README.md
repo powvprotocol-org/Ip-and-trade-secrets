@@ -67,7 +67,13 @@ The following symbols define the conceptual sequence used throughout the PoWV ev
 | `A`    | Anchoring and audit record                       |
 | `I`    | Downstream interpretation                        |
 
-$ E \rightarrow M \rightarrow P \rightarrow \sigma \rightarrow V \rightarrow H \rightarrow A \rightarrow I $
+$$
+E \rightarrow M \rightarrow P \rightarrow \sigma
+$$
+
+$$
+\sigma \rightarrow V \rightarrow H \rightarrow A \rightarrow I
+$$
 
 This notation preserves the distinction between the originating physical event, the evidence produced about it, the cryptographic controls applied to that evidence, and the interpretation constructed afterward.
 
@@ -83,27 +89,45 @@ Therefore, `M` is not identical to `E`. It is an instrumentally produced represe
 
 The measurement and its declared metadata are serialized into an evidence package:
 
-$ P = \operatorname{Serialize}(M \parallel metadata) $
+$$
+P = \text{serialize}(M, \text{metadata})
+$$
 
 The identified device signs that package:
 
-$ \sigma = \operatorname{Sign}(k, P) $
+$$
+\sigma = \text{sign}(k, P)
+$$
 
 The receiving system validates the package and signature, computes the cryptographic hash, and produces an anchoring or audit record:
 
-$ V = \operatorname{Verify}(pk, \sigma, P) $
+$$
+V = \text{verify}(pk, \sigma, P)
+$$
 
-$ H = \operatorname{Hash}(P \parallel \sigma) $
+$$
+H = \text{hash}(P, \sigma)
+$$
 
-$ A = \operatorname{Anchor}(H, V) $
+$$
+A = \text{anchor}(H, V)
+$$
 
 The resulting evidence lineage is:
 
-$ E \rightarrow M \rightarrow P \rightarrow \sigma \rightarrow V \rightarrow H \rightarrow A $
+$$
+E \rightarrow M \rightarrow P \rightarrow \sigma
+$$
+
+$$
+\sigma \rightarrow V \rightarrow H \rightarrow A
+$$
 
 Interpretation remains explicitly downstream:
 
-$ I = g(M, A, R, B, \ldots) $
+$$
+I = g(M, A, R, B, \ldots)
+$$
 
 where `R` represents applicable rules and `B` represents business or operational context. This separation prevents an inference from being retroactively presented as the original measurement.
 
@@ -120,9 +144,25 @@ where `R` represents applicable rules and `B` represents business or operational
 
 This model deliberately avoids requiring trust in the messenger. The transport layer may be unreliable or even hostile while the receiving system still verifies whether the evidence remains cryptographically bound to its origin.
 
-$ H^{(0)} = \operatorname{Hash}(P^{(0)} \parallel \sigma^{(0)}), \qquad H^{(1)} = \operatorname{Hash}(P^{(1)} \parallel \sigma^{(1)}), \qquad H^{(0)} = H^{(1)} $
+$$
+H^{(0)} = \text{hash}(P^{(0)}, \sigma^{(0)})
+$$
 
-$ V = \operatorname{Verify}(pk, \sigma, P^{(1)}) = \operatorname{true} $
+$$
+H^{(1)} = \text{hash}(P^{(1)}, \sigma^{(1)})
+$$
+
+$$
+H^{(0)} = H^{(1)}
+$$
+
+$$
+V = \text{verify}(pk, \sigma, P^{(1)})
+$$
+
+$$
+V = \text{true}
+$$
 
 These checks establish continuity between the edge record and the received record. They do not erase the need for calibration, device security, maintenance, environmental controls, or operational governance.
 
