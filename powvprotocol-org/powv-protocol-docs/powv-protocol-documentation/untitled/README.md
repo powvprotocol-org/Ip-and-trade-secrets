@@ -87,7 +87,7 @@ $ P = \operatorname{Serialize}(M \parallel metadata) $
 
 The identified device signs that package:
 
-$ \sigma = \operatorname{Sign}\_{k}(P) $
+$ \sigma = \operatorname{Sign}(k, P) $
 
 The receiving system validates the package and signature, computes the cryptographic hash, and produces an anchoring or audit record:
 
