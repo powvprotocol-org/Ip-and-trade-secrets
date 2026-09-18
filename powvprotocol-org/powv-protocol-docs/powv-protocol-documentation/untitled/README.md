@@ -87,11 +87,11 @@ $ P = \operatorname{Serialize}(M \parallel metadata) $
 
 The identified device signs that package:
 
-$ \sigma = \operatorname{Sign}_{k_{device\}}(P) $
+$ \sigma = \operatorname{Sign}\_{k}(P) $
 
 The receiving system validates the package and signature, computes the cryptographic hash, and produces an anchoring or audit record:
 
-$ V = \operatorname{Verify}(pk\_{device}, \sigma, P) $
+$ V = \operatorname{Verify}(pk, \sigma, P) $
 
 $ H = \operatorname{Hash}(P \parallel \sigma) $
 
@@ -120,9 +120,9 @@ where `R` represents applicable rules and `B` represents business or operational
 
 This model deliberately avoids requiring trust in the messenger. The transport layer may be unreliable or even hostile while the receiving system still verifies whether the evidence remains cryptographically bound to its origin.
 
-$ H\_0 = \operatorname{Hash}(P\_0 \parallel \sigma\_0), \qquad H\_1 = \operatorname{Hash}(P\_1 \parallel \sigma\_1), \qquad H\_0 = H\_1 $
+$ H^{(0)} = \operatorname{Hash}(P^{(0)} \parallel \sigma^{(0)}), \qquad H^{(1)} = \operatorname{Hash}(P^{(1)} \parallel \sigma^{(1)}), \qquad H^{(0)} = H^{(1)} $
 
-$ V = \operatorname{Verify}(pk\_{device}, \sigma, P\_1) = true $
+$ V = \operatorname{Verify}(pk, \sigma, P^{(1)}) = \operatorname{true} $
 
 These checks establish continuity between the edge record and the received record. They do not erase the need for calibration, device security, maintenance, environmental controls, or operational governance.
 
