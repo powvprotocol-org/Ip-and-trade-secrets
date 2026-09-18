@@ -1,0 +1,60 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: PoWV Protocol Documentation
+  structure:
+    - type: section
+      key: section-1
+      title: PoWV Protocol Documentation
+      path: powv-protocol-documentation
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: PoWV Protocol
+          path: untitled
+          default: true
+          content:
+            directory: ./powv-protocol-documentation/untitled
+            language: en
+    - type: section
+      key: section-2
+      title: Protocol
+      path: protocol
+      icon: book-open
+      children:
+        - type: space
+          key: space-2
+          title: PoWV Protocol
+          path: powv-protocol
+          default: true
+          content:
+            directory: ./powv-protocol-documentation/untitled
+            language: en
+    - type: section
+      key: section-3
+      title: Technology
+      path: technology
+      icon: microchip
+      children:
+        - type: space
+          key: space-3
+          title: Technology
+          path: technology
+          default: true
+          content:
+            directory: ./technology
+            language: en
+    - type: section
+      key: section-4
+      title: Applications & Trust
+      path: applications-and-trust
+      icon: shield-check
+      children:
+        - type: space
+          key: space-4
+          title: Applications & Trust
+          path: applications-and-trust
+          default: true
+          content:
+            directory: ./applications-and-trust
+            language: en
