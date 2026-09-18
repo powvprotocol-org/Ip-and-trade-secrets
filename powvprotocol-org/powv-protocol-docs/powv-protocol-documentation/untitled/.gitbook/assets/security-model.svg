@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">PoWV public security model</title>
+  <desc id="desc">A capability-level security model that maps threat classes to assurance objectives without revealing controls.</desc>
+  <defs><linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset="1" stop-color="#101418"/></linearGradient></defs>
+  <rect width="1440" height="760" rx="32" fill="url(#bg3)"/>
+  <text x="80" y="78" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Public Security Model</text>
+  <text x="1360" y="78" text-anchor="end" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="18">THREAT-TO-ASSURANCE VIEW</text>
+  <rect x="80" y="150" width="1280" height="500" rx="28" fill="#0d1114" stroke="#273038" stroke-width="2"/>
+  <rect x="515" y="258" width="410" height="285" rx="36" fill="#0d251e" stroke="#10b981" stroke-width="3"/>
+  <path d="M720 310l72 28v56c0 62-36 102-72 119-36-17-72-57-72-119v-56z" fill="#133b30" stroke="#34d399" stroke-width="3"/>
+  <path d="M687 394l23 23 48-59" fill="none" stroke="#6ee7b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="720" y="575" text-anchor="middle" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Evidence remains attributable,</text>
+  <text x="720" y="602" text-anchor="middle" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">intact and reviewable</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="120" y="190" width="320" height="105" rx="18" fill="#16130d" stroke="#5a4114"/><text x="150" y="232" fill="#fbbf24" font-size="21" font-weight="700">Source substitution</text><text x="150" y="264" fill="#a1a1aa" font-size="16">Objective: provenance confidence</text>
+    <rect x="1000" y="190" width="320" height="105" rx="18" fill="#16130d" stroke="#5a4114"/><text x="1030" y="232" fill="#fbbf24" font-size="21" font-weight="700">Record tampering</text><text x="1030" y="264" fill="#a1a1aa" font-size="16">Objective: detectable modification</text>
+    <rect x="120" y="350" width="320" height="105" rx="18" fill="#11161a" stroke="#214237"/><text x="150" y="392" fill="#6ee7b7" font-size="21" font-weight="700">Duplicate claims</text><text x="150" y="424" fill="#a1a1aa" font-size="16">Objective: conflict visibility</text>
+    <rect x="1000" y="350" width="320" height="105" rx="18" fill="#11161a" stroke="#214237"/><text x="1030" y="392" fill="#6ee7b7" font-size="21" font-weight="700">Custody discontinuity</text><text x="1030" y="424" fill="#a1a1aa" font-size="16">Objective: traceable handoffs</text>
+    <rect x="120" y="510" width="320" height="105" rx="18" fill="#16130d" stroke="#5a4114"/><text x="150" y="552" fill="#fbbf24" font-size="21" font-weight="700">Connectivity failure</text><text x="150" y="584" fill="#a1a1aa" font-size="16">Objective: recoverable evidence</text>
+    <rect x="1000" y="510" width="320" height="105" rx="18" fill="#16130d" stroke="#5a4114"/><text x="1030" y="552" fill="#fbbf24" font-size="21" font-weight="700">Insider manipulation</text><text x="1030" y="584" fill="#a1a1aa" font-size="16">Objective: independent review</text>
+  </g>
+  <text x="720" y="702" text-anchor="middle" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="17">Control selection, thresholds and implementation details remain restricted.</text>
+</svg>

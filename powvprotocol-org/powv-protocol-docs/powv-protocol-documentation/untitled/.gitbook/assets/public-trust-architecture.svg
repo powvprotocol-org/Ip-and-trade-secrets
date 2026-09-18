@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">PoWV public trust architecture</title>
+  <desc id="desc">A non-normative view of the three public trust domains: physical context, evidence assurance, and authorized digital use.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset="1" stop-color="#101418"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1440" height="760" rx="32" fill="url(#bg)"/>
+  <path d="M80 112H1360" stroke="#273038" stroke-width="2"/>
+  <text x="80" y="78" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">PoWV Public Trust Architecture</text>
+  <text x="1360" y="78" text-anchor="end" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="18">NON-NORMATIVE PUBLIC VIEW</text>
+  <rect x="80" y="166" width="390" height="430" rx="24" fill="#11161a" stroke="#3f3420" stroke-width="2"/>
+  <circle cx="130" cy="220" r="24" fill="#2a2112" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M117 224h26M122 215h16M126 206h8" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <text x="170" y="230" fill="#fbbf24" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Physical Context</text>
+  <text x="120" y="292" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Purpose</text>
+  <text x="120" y="327" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Define what real-world claim</text>
+  <text x="120" y="354" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">requires trustworthy evidence.</text>
+  <text x="120" y="414" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Public concepts</text>
+  <text x="120" y="451" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Asset · event · custody</text>
+  <text x="120" y="480" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">location · time · measurement</text>
+  <rect x="525" y="146" width="390" height="470" rx="24" fill="#101a17" stroke="#10b981" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="575" cy="210" r="24" fill="#0d2a21" stroke="#10b981" stroke-width="2"/>
+  <path d="M563 211l8 8 16-20" fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="615" y="220" fill="#34d399" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Evidence Assurance</text>
+  <text x="565" y="286" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Purpose</text>
+  <text x="565" y="321" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Establish confidence that a claim</text>
+  <text x="565" y="348" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">is attributable, intact and auditable.</text>
+  <text x="565" y="408" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Assurance dimensions</text>
+  <text x="565" y="445" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Provenance · integrity · uniqueness</text>
+  <text x="565" y="474" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">continuity · reviewability · resilience</text>
+  <rect x="970" y="166" width="390" height="430" rx="24" fill="#11161a" stroke="#214237" stroke-width="2"/>
+  <circle cx="1020" cy="220" r="24" fill="#0d2a21" stroke="#10b981" stroke-width="2"/>
+  <path d="M1008 226h24M1012 216h16M1017 206h6" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+  <text x="1060" y="230" fill="#6ee7b7" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Authorized Use</text>
+  <text x="1010" y="292" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Purpose</text>
+  <text x="1010" y="327" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Support decisions without requiring</text>
+  <text x="1010" y="354" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">blind trust in an operational record.</text>
+  <text x="1010" y="414" fill="#e4e4e7" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Public outcomes</text>
+  <text x="1010" y="451" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Audit · compliance · insurance</text>
+  <text x="1010" y="480" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">finance · settlement · reporting</text>
+  <path d="M470 381h55M915 381h55" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="498" cy="381" r="6" fill="#f59e0b"/><circle cx="942" cy="381" r="6" fill="#10b981"/>
+  <rect x="80" y="650" width="1280" height="54" rx="15" fill="#0d1114" stroke="#273038"/>
+  <text x="720" y="684" text-anchor="middle" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="18">Capability view only — implementation sequences, parameters and internal trust boundaries are intentionally omitted.</text>
+</svg>
