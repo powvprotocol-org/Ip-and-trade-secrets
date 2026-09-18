@@ -1,5 +1,5 @@
-# Table of contents
+# Table of Contents
 
-* [Applications & Trust](README.md)
-* [Use Cases](use-cases.md)
-* [Security](security.md)
+* [Applications and Trust Framework](README.md)
+* [Industry Applications](use-cases.md)
+* [Security and Responsible Disclosure](security.md)
