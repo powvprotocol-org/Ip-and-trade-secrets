@@ -37,10 +37,12 @@ PoWV treats every physical claim as the result of a traceable sequence. A real-w
 ```mermaid
 flowchart TB
     E["Physical event"] --> M["Instrumental measurement"]
-    M --> A["Edge attestation"]
-    A --> T["Transport layer"]
-    T --> L["Verified and anchored evidence"]
-    L --> I["Interpretation"]
+    M --> P["Serialized evidence package"]
+    P --> S["Digital signature (σ)"]
+    S --> V["Cryptographic validation"]
+    V --> H["Cryptographic hash"]
+    H --> A["Anchoring and audit"]
+    A --> I["Interpretation"]
     I --> D["Operational or economic decision"]
 ```
 
@@ -49,6 +51,25 @@ flowchart TB
 {% endhint %}
 
 ### Evidence about reality, not reality itself
+
+#### Canonical notation
+
+The following symbols define the conceptual sequence used throughout the PoWV evidence model:
+
+| Symbol | Meaning                                          |
+| ------ | ------------------------------------------------ |
+| `E`    | Physical event                                   |
+| `M`    | Measurement or instrument-generated event record |
+| `P`    | Serialized evidence package                      |
+| `σ`    | Digital signature                                |
+| `V`    | Cryptographic validation                         |
+| `H`    | Cryptographic hash                               |
+| `A`    | Anchoring and audit record                       |
+| `I`    | Downstream interpretation                        |
+
+$ E \rightarrow M \rightarrow P \rightarrow \sigma \rightarrow V \rightarrow H \rightarrow A \rightarrow I $
+
+This notation preserves the distinction between the originating physical event, the evidence produced about it, the cryptographic controls applied to that evidence, and the interpretation constructed afterward.
 
 PoWV does not claim that a sensor captures reality without mediation. Let `E` represent a physical event. The instrument produces a measurement `M` as a function of the event, the sensor, its calibration, the operating conditions, and measurement uncertainty:
 
@@ -60,23 +81,29 @@ Therefore, `M` is not identical to `E`. It is an instrumentally produced represe
 
 > **This value was produced by this identified device, at this time, under these recorded conditions, and it was not subsequently replaced without leaving verifiable evidence.**
 
-An edge attestation can be represented conceptually as:
+The measurement and its declared metadata are serialized into an evidence package:
 
-$$
-A = \operatorname{Sign}_{k_{device}}(M \parallel metadata)
-$$
+$ P = \operatorname{Serialize}(M \parallel metadata) $
 
-The resulting lineage is:
+The identified device signs that package:
 
-$$
-E \rightarrow M \rightarrow A \rightarrow L
-$$
+$ \sigma = \operatorname{Sign}_{k_{device\}}(P) $
 
-where `L` is the verified, anchored evidence record. Interpretations remain downstream:
+The receiving system validates the package and signature, computes the cryptographic hash, and produces an anchoring or audit record:
 
-$$
-I = g(M, R, B, \ldots)
-$$
+$ V = \operatorname{Verify}(pk\_{device}, \sigma, P) $
+
+$ H = \operatorname{Hash}(P \parallel \sigma) $
+
+$ A = \operatorname{Anchor}(H, V) $
+
+The resulting evidence lineage is:
+
+$ E \rightarrow M \rightarrow P \rightarrow \sigma \rightarrow V \rightarrow H \rightarrow A $
+
+Interpretation remains explicitly downstream:
+
+$ I = g(M, A, R, B, \ldots) $
 
 where `R` represents applicable rules and `B` represents business or operational context. This separation prevents an inference from being retroactively presented as the original measurement.
 
@@ -93,13 +120,9 @@ where `R` represents applicable rules and `B` represents business or operational
 
 This model deliberately avoids requiring trust in the messenger. The transport layer may be unreliable or even hostile while the receiving system still verifies whether the evidence remains cryptographically bound to its origin.
 
-$$
-H(M_0) = H(M_1)
-$$
+$ H\_0 = \operatorname{Hash}(P\_0 \parallel \sigma\_0), \qquad H\_1 = \operatorname{Hash}(P\_1 \parallel \sigma\_1), \qquad H\_0 = H\_1 $
 
-$$
-\operatorname{Verify}(pk_{device}, \sigma, M_1) = true
-$$
+$ V = \operatorname{Verify}(pk\_{device}, \sigma, P\_1) = true $
 
 These checks establish continuity between the edge record and the received record. They do not erase the need for calibration, device security, maintenance, environmental controls, or operational governance.
 
