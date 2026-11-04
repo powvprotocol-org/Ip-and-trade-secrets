@@ -58,3 +58,17 @@ site:
           content:
             directory: ./applications-and-trust
             language: en
+    - type: section
+      key: section-5
+      title: Product Proposals
+      path: product-proposals
+      icon: boxes-stacked
+      children:
+        - type: space
+          key: space-5
+          title: Product Proposals
+          path: product-proposals
+          default: true
+          content:
+            directory: ./product-proposals
+            language: en
