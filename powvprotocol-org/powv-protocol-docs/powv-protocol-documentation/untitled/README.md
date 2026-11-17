@@ -247,11 +247,11 @@ The protocol subjects downstream representations to a verifiable chain of instru
 
 ### Explore the documentation
 
-* The Problem
+* [The Problem](the-problem.md)
 * [Architecture](architecture/)
 * [Verifiable Evidence](verifiable-evidence/)
 * [Industrial Connectivity](industrial-connectivity/)
-* Use Cases
+* [Use Cases](use-cases.md)
 * [Security](security/)
 * [Project Status](project-status/)
 
