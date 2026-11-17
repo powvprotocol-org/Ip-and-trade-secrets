@@ -79,7 +79,7 @@ Only results supported by retained measurements and a disclosure review should b
 
 ## Relationship to software validation
 
-The existing Validation Evidence documents selected functional software checks. Those results support only the behaviors tested; they do not validate capacity estimates or physical-network performance.
+The existing [Validation Evidence](validation-evidence.md) documents selected functional software checks. Those results support only the behaviors tested; they do not validate capacity estimates or physical-network performance.
 
 ## Disclosure boundary
 
