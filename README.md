@@ -14,9 +14,9 @@ The existing policy text and ownership record are preserved. This README organiz
 
 ## Documentation and GitBook synchronization
 
-This repository hosts the Git-synchronized documentation source. After the rename from `Ip-and-trade-secrets` to `powv-governance-and-docs`, the existing source directories are preserved.
+This repository hosts the Git-synchronized documentation source. The existing source directories are preserved.
 
-On November 17, 2026, GitBook reported all four connections as active, but their configuration metadata still displayed the former repository name. The latest recorded protocol import succeeded before the rename; a post-rename import has not yet been confirmed. Review the repository selection in GitBook Git Sync and verify a successful synchronization before reorganizing directories.
+The repository owner confirmed the GitBook connection was resolved on November 17, 2026. Keep the synchronized directories stable; any future directory migration must include a Git Sync configuration review and verification.
 
 | GitBook space | Source directory |
 | --- | --- |
@@ -25,7 +25,7 @@ On November 17, 2026, GitBook reported all four connections as active, but their
 | Applications & Trust | [Applications & Trust](powvprotocol-org/powv-protocol-docs/applications-and-trust/) |
 | Product Proposals | `powvprotocol-org/powv-protocol-docs/product-proposals/` (configured sync directory) |
 
-Edit the synchronized source for documentation updates. The related documentation tree in the organization's `.github` repository is a secondary copy pending reconciliation. Preserve unique content when comparing versions. Do not move or delete synchronized directories until the GitBook connection has been migrated and verified.
+Edit the synchronized source for documentation updates. The related documentation paths in the organization's `.github` repository are maintained as links to this source, rather than independent copies. Do not move or delete synchronized directories until the GitBook connection has been migrated and verified.
 
 The Product Proposals entry records the configured connection; it does not assert that its directory is present in the current Git tree.
 
