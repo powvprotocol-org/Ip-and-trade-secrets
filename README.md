@@ -1,9 +1,22 @@
-# ip-and-trade-secrets
-Documentação oficial de Propriedade Intelectual, políticas de Segredo Industrial (Lei nº 9.279/96) e passivos criminais/civis aplicáveis à tecnologia proprietária do PoWV Protocol.
+# PoWV Governance & Documentation
+
+Public governance, intellectual-property policies, disclosure boundaries, and official documentation for the PoWV Protocol.
+
+This repository brings together the policies governing the project and the documentation source connected to GitBook. Public policies describe the handling of restricted material; proprietary implementation, credentials, and confidential operational records belong in access-controlled environments.
+
+## Governance and intellectual property
+
+- [Trade Secret and Intellectual Property Protection Policy](TRADE_SECRET_POLICY.md)
+- [Documentation Disclosure Boundary](powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/security/disclosure-boundary.md)
+- [Public Security Overview](powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/security/README.md)
+
+The existing policy text and ownership record are preserved. This README organizes access to those documents without changing their provisions.
 
 ## Documentation and GitBook synchronization
 
-This repository currently also hosts the Git-synchronized documentation source. The active GitBook connections were verified on November 17, 2026.
+This repository hosts the Git-synchronized documentation source. After the rename from `Ip-and-trade-secrets` to `powv-governance-and-docs`, the existing source directories are preserved.
+
+On November 17, 2026, GitBook reported all four connections as active, but their configuration metadata still displayed the former repository name. The latest recorded protocol import succeeded before the rename; a post-rename import has not yet been confirmed. Review the repository selection in GitBook Git Sync and verify a successful synchronization before reorganizing directories.
 
 | GitBook space | Source directory |
 | --- | --- |
