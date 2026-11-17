@@ -40,3 +40,11 @@ Security reports: **powv.protocol@proton.me**
 **Governance references**
 
 The [Disclosure Boundary](disclosure-boundary.md) defines the documentation's disclosure categories. The separate [Governance and Intellectual Property Policy](governance-and-intellectual-property-policy.md) addresses confidentiality, access conditions, and intellectual property. Both are organized through [PoWV Governance & Documentation](https://github.com/powvprotocol-org/powv-governance-and-docs).
+
+### Governance references
+
+| Document                                                                                        | Purpose                                                                           |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [Disclosure Boundary](disclosure-boundary.md)                                                   | Defines public, controlled-evaluation, and restricted disclosure categories.      |
+| [Governance and Intellectual Property Policy](governance-and-intellectual-property-policy.md)   | Sets out confidentiality, access conditions, and intellectual-property ownership. |
+| [PoWV Governance & Documentation](https://github.com/powvprotocol-org/powv-governance-and-docs) | Hosts public governance documents and the official GitBook documentation sources. |

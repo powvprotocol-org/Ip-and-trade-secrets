@@ -1,3 +1,7 @@
+---
+icon: scale-balanced
+---
+
 # Governance and Intellectual Property Policy
 
 > **STRICT LEGAL NOTICE:** This document establishes the governance, protection, and legal liability guidelines applicable to all proprietary technology developed within the scope of the **PoWV Protocol**. The cyber-physical infrastructure, source codes, and hardware associated with this ecosystem are not in the public domain.
