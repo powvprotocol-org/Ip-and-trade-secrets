@@ -9,7 +9,7 @@ PoWV applies a defense-in-depth philosophy to the physical-to-digital boundary. 
 
 ![PoWV public security model](../.gitbook/assets/security-model.svg)
 
-## Public security objectives
+### Public security objectives
 
 | Threat class                    | Security objective                                           |
 | ------------------------------- | ------------------------------------------------------------ |
@@ -20,7 +20,7 @@ PoWV applies a defense-in-depth philosophy to the physical-to-digital boundary. 
 | Connectivity failure            | Preserve evidence for controlled recovery and reconciliation |
 | Insider manipulation            | Avoid dependence on a single unreviewable authority          |
 
-## Security is an assurance argument
+### Security is an assurance argument
 
 PoWV does not describe security as one algorithm, device, or network. Security is the combined argument that:
 
@@ -30,9 +30,13 @@ PoWV does not describe security as one algorithm, device, or network. Security i
 * exceptions remain reviewable;
 * authorized parties can evaluate the basis of a decision.
 
-## Explore security
+### Explore security
 
 * [Threat Model](threat-model.md)
 * [Disclosure Boundary](disclosure-boundary.md)
 
 Security reports: **powv.protocol@proton.me**
+
+### Governance references
+
+The [Disclosure Boundary](disclosure-boundary.md) defines the documentation's disclosure categories. The separate [Trade Secret and Intellectual Property Protection Policy](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/TRADE_SECRET_POLICY.md) addresses confidentiality, access conditions, and intellectual property. Both are organized through [PoWV Governance & Documentation](https://github.com/powvprotocol-org/powv-governance-and-docs).
