@@ -59,7 +59,7 @@ This separation allows technology choices to evolve without turning the public d
 
 ## Explore deployment environments
 
-* Operational Environments
+* [Operational Environments](operational-environments.md)
 
 {% hint style="warning" %}
 Hardware composition, wiring, industrial interfaces, communication framing, firmware behavior, gateway topology, modem configuration, recovery procedures, and customer-specific connectors are restricted.
