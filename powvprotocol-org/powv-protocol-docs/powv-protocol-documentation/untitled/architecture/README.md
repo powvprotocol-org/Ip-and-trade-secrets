@@ -47,6 +47,6 @@ This diagram is a non-normative capability view. It does not represent firmware 
 
 ## Explore this architecture
 
-* Trust Domains
-* Design Principles
-* Deployment Profiles
+* [Trust Domains](trust-domains.md)
+* [Design Principles](design-principles.md)
+* [Deployment Profiles](deployment-profiles.md)
