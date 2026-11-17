@@ -7,7 +7,7 @@ icon: lock-keyhole
 
 PoWV uses a controlled-disclosure model so the public can understand the protocol's purpose and assurance claims without receiving an implementation blueprint.
 
-#### Public
+**Public**
 
 * problem definition and institutional thesis;
 * assurance dimensions and design principles;
@@ -17,7 +17,7 @@ PoWV uses a controlled-disclosure model so the public can understand the protoco
 * use-case patterns;
 * maturity status and evaluation indicators.
 
-#### Controlled technical evaluation
+**Controlled technical evaluation**
 
 May be shared with authorized parties under an appropriate confidentiality and review framework:
 
@@ -27,7 +27,7 @@ May be shared with authorized parties under an appropriate confidentiality and r
 * security review material;
 * partner-specific architecture.
 
-#### Restricted
+**Restricted**
 
 * production firmware and source logic;
 * exact event structures and serialization;
@@ -44,18 +44,18 @@ May be shared with authorized parties under an appropriate confidentiality and r
 Public availability of a file or repository does not automatically mean its contents are appropriate for institutional documentation. Publication decisions follow the disclosure classification above.
 {% endhint %}
 
-### Governance and intellectual property
+#### Governance and intellectual property
 
 [PoWV Governance & Documentation](https://github.com/powvprotocol-org/powv-governance-and-docs) brings together PoWV's public governance documents, intellectual-property policy, and official documentation sources.
 
-#### Trade secret and intellectual property protection
+**Governance and intellectual property protection**
 
-The [Trade Secret and Intellectual Property Protection Policy](trade-secret-and-ip-policy.md) is available in full within this documentation. It addresses confidentiality, access conditions, intellectual-property ownership, and the handling of proprietary material.
+The [Governance and Intellectual Property Policy](governance-and-intellectual-property-policy.md) is available in full within this documentation. It addresses confidentiality, access conditions, intellectual-property ownership, and the handling of proprietary material.
 
-#### Documentation disclosure
+**Documentation disclosure**
 
 This Disclosure Boundary page defines the public, controlled-evaluation, and restricted categories applied to documentation. The policy is a separate document with its own scope and provisions.
 
-#### Documentation source
+**Documentation source**
 
 The [repository overview](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/README.md) identifies the governance documents and GitBook source directories. Confidential implementation material and operational records are maintained in access-controlled environments.

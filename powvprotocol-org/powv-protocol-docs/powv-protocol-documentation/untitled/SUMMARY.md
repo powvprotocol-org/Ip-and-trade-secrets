@@ -15,7 +15,7 @@
 * [Security](security/README.md)
   * [Threat Model](security/threat-model.md)
   * [Disclosure Boundary](security/disclosure-boundary.md)
-  * [Trade Secret and Intellectual Property Protection Policy](security/trade-secret-and-ip-policy.md)
+  * [Governance and Intellectual Property Policy](security/governance-and-intellectual-property-policy.md)
 * [Project Status](project-status/README.md)
   * [Validation Evidence](project-status/validation-evidence.md)
   * [Efficiency Evaluation](project-status/efficiency-evaluation.md)
