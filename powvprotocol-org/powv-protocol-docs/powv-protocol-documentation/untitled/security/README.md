@@ -37,10 +37,6 @@ PoWV does not describe security as one algorithm, device, or network. Security i
 
 Security reports: **powv.protocol@proton.me**
 
-**Governance references**
-
-The [Disclosure Boundary](disclosure-boundary.md) defines the documentation's disclosure categories. The separate [Governance and Intellectual Property Policy](governance-and-intellectual-property-policy.md) addresses confidentiality, access conditions, and intellectual property. Both are organized through [PoWV Governance & Documentation](https://github.com/powvprotocol-org/powv-governance-and-docs).
-
 ### Governance references
 
 | Document                                                                                        | Purpose                                                                           |
