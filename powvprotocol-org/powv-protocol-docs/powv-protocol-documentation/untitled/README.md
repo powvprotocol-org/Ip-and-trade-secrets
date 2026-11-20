@@ -14,7 +14,7 @@ PoWV is not presented as production-ready or certified. See [Project Status](pro
 
 PoWV is a verification infrastructure designed to strengthen the connection between physical operations and digital systems. It enables organizations to establish reliable evidence about real-world assets and events before those records are used for audit, compliance, financing, insurance, or digital settlement.
 
-> **Verifiable physical truth creates economic certainty.**
+> **Verifiable physical evidence supports economic decisions.**
 
 ### The core question
 
