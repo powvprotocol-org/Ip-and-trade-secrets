@@ -55,7 +55,9 @@ where evidence originates       shared verification       where evidence and dev
                                                            ├── Verify Service
                                                            ├── Audit Console
                                                            │
-                                                           └── PoWV Digital Treasury ─── EdgeGuard profile for custody and financial operations
+                                                           └── PoWV Digital Treasury
+                                                               (EdgeGuard profile for custody
+                                                                and financial operations)
                 │
                 ▼
    Downstream RWA infrastructure (not operated by PoWV)
@@ -66,7 +68,7 @@ The **Protocol Suite**, **EdgeGuard** and the **Secure Capture Node** are distin
 
 | Product | Role | What it is not | Maturity |
 | --- | --- | --- | --- |
-| [PoWV Protocol Suite](protocol-suite.md) | Foundational verification infrastructure: evidence lifecycle, verification rules, provenance and contract governance. Potential applications in RWA, traceable physical assets, enterprise finance and tokenization readiness | Not a single end-user application, and not a token issuer | Research architecture; selected software behaviour demonstrated in controlled environments |
+| [PoWV Protocol Suite](protocol-suite.md) | Foundational verification infrastructure: evidence lifecycle, verification rules, provenance and contract governance. Potential applications in RWA, traceable physical assets, enterprise finance and tokenization readiness | Not a single end-user application, and not a token issuer | Research architecture; selected software behavior demonstrated in controlled environments |
 | [PoWV EdgeGuard](edgeguard/README.md) | Operational security and trust platform that turns device posture, evidence outcomes and policy into authorization decisions | Not a proof that a physical event occurred | Product concept |
 | [PoWV Secure Capture Node](secure-capture-node.md) | Dedicated hardware for attributable acquisition of physical events | Not a guarantee that a measurement is correct | Hardware concept; precursor laboratory work only |
 | [PoWV Digital Treasury](edgeguard/digital-treasury.md) | EdgeGuard profile for custody and financial environments: trusted authorization of financial operations, alongside custody systems and tokenized-asset infrastructure | Does not itself issue, hold or settle financial assets | Market profile concept |

@@ -73,7 +73,7 @@ Checks submitted evidence according to the Protocol Suite's verification rules a
 
 ## Risk Quarantine Engine
 
-Restricts or isolates devices, identities, workloads or requests whose trust status no longer meets the applicable requirements. Examples are a failed attestation, revoked credentials, anomalous behaviour or an open investigation.
+Restricts or isolates devices, identities, workloads or requests whose trust status no longer meets the applicable requirements. Examples are a failed attestation, revoked credentials, anomalous behavior or an open investigation.
 
 - **Responsible for:** containment that is reversible and reviewable. Every restriction is recorded with its reason, and release follows a defined process.
 - **Design intent:** quarantine prevents further reliance; it does not delete or rewrite evidence.

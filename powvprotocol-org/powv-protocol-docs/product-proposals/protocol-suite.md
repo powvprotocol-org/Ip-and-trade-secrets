@@ -7,7 +7,7 @@ icon: layer-group
 
 # PoWV Protocol Suite
 
-The **PoWV Protocol Suite** is the foundational verification infrastructure of the portfolio. It is not a single application. It is the set of shared rules, reference behaviour and governance through which the portfolio's products interoperate, so that evidence produced by one component can be checked by another, including by parties who do not trust each other.
+The **PoWV Protocol Suite** is the foundational verification infrastructure of the portfolio. It is not a single application. It is the set of shared rules, reference behavior and governance through which the portfolio's products interoperate, so that evidence produced by one component can be checked by another, including by parties who do not trust each other.
 
 The Suite is designed for uses where economic decisions depend on physical facts, including real-world assets (RWA) and their tokenization. See [Potential applications](#potential-applications).
 
@@ -19,7 +19,7 @@ The Suite is designed for uses where economic decisions depend on physical facts
 | Verification | How integrity and provenance of evidence are checked | Whether the attesting source was trustworthy at the time |
 | Admissibility | Graded outcomes that state exactly what was verified | Whether a downstream action is authorized |
 | Audit and history | How evidence history is recorded so that later alteration, removal or divergence is detectable | Durable, independent preservation of reference points |
-| Contracts and interoperability | Versioned definitions that independent implementations must reproduce exactly | Product-specific behaviour built on those definitions |
+| Contracts and interoperability | Versioned definitions that independent implementations must reproduce exactly | Product-specific behavior built on those definitions |
 
 ## Physical-to-digital evidence lifecycle
 
@@ -98,6 +98,6 @@ These are **intended applications**, not operating services. PoWV does not curre
 | Capability | Status |
 | --- | --- |
 | Public architecture and evidence model | Defined |
-| Selected software verification behaviour | Demonstrated in controlled software environments ([September 6, 2026 record](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence)) |
+| Selected software verification behavior | Demonstrated in controlled software environments ([September 6, 2026 record](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence)) |
 | Contract governance | Under development; contracts provisional |
 | Production deployment, certification | Not claimed |

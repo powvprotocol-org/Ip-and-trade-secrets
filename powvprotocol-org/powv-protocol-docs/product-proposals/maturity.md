@@ -16,8 +16,8 @@ icon: list-check
 | Level | Meaning |
 | --- | --- |
 | **Proposed** | Role and boundaries defined in documentation only |
-| **Research** | Under active design or investigation, with no demonstrated behaviour |
-| **Demonstrated (controlled)** | Selected behaviour shown in a controlled laboratory or software environment, with a dated public record |
+| **Research** | Under active design or investigation, with no demonstrated behavior |
+| **Demonstrated (controlled)** | Selected behavior shown in a controlled laboratory or software environment, with a dated public record |
 | **Validated** | Independently reviewed under defined acceptance criteria in a representative environment |
 | **Available** | Released for use under defined terms |
 
@@ -25,7 +25,7 @@ icon: list-check
 
 | Product | Current level | Evidence | Next validation steps |
 | --- | --- | --- | --- |
-| PoWV Protocol Suite | **Demonstrated (controlled)** for selected software behaviour. **Research** for contract governance. | [Software validation, September 6, 2026](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence) | Independent review; end-to-end integration; approval of provisional contracts |
+| PoWV Protocol Suite | **Demonstrated (controlled)** for selected software behavior. **Research** for contract governance. | [Software validation, September 6, 2026](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence) | Independent review; end-to-end integration; approval of provisional contracts |
 | PoWV EdgeGuard | **Proposed** | None yet | Module design; reference implementation of the verification and authorization path |
 | PoWV Secure Capture Node | **Proposed** (product). The precursor acquisition path is **Demonstrated (controlled)**. | [Physical integration record, September 18, 2026](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) | Hardware-anchored identity; device-side verification; authorized bench runs |
 | PoWV Digital Treasury | **Proposed** | None yet | Depends on EdgeGuard; requires legal and regulatory review for any target market |
@@ -36,7 +36,7 @@ icon: list-check
 - The **September 6** software record and the **September 18** physical record have different scopes. Neither extends the conclusions of the other.
 - Software test results do not validate the physical measurement path.
 - The September 18 experiment used general-purpose equipment. It is precursor work, not a Secure Capture Node prototype.
-- Later software engineering work is recorded separately and dated. Experimental work is identified as such until it is reviewed and released.
+- Later software engineering work is recorded separately and dated: see the [November 2026 software engineering update](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md). Experimental work is identified as such until it is reviewed and released.
 
 ## Not claimed
 
