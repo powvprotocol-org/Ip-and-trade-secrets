@@ -8,7 +8,9 @@ icon: circle-nodes
 
 ## PoWV Protocol
 
-**Enterprise-grade infrastructure for Real-World Asset verification.**
+**Verification infrastructure for Real-World Assets, in research and controlled laboratory validation.**
+
+PoWV is not presented as production-ready or certified. See [Project Status](project-status/README.md) for current maturity and evidence.
 
 PoWV is a verification infrastructure designed to strengthen the connection between physical operations and digital systems. It enables organizations to establish reliable evidence about real-world assets and events before those records are used for audit, compliance, financing, insurance, or digital settlement.
 
@@ -28,7 +30,7 @@ PoWV addresses this gap through a secure evidence and verification framework.
 * Independent verification and auditability
 * Reduced exposure to duplicated or manipulated claims
 * Interoperability between operational and digital environments
-* A trusted foundation for Real-World Asset systems
+* An evidence foundation intended for Real-World Asset systems
 
 ## Epistemic Architecture and Data Chain of Custody
 
