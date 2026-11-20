@@ -35,7 +35,7 @@ PoWV does not describe security as one algorithm, device, or network. Security i
 * [Threat Model](threat-model.md)
 * [Disclosure Boundary](disclosure-boundary.md)
 
-Security reports: **powv.protocol@proton.me**
+Security reports: **gabriel@powvprotocol.com** (official channel). General support: powv.protocol@proton.me
 
 ### Governance references
 
