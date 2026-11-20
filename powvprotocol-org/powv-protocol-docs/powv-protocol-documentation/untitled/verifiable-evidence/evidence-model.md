@@ -16,6 +16,12 @@ PoWV's public evidence model distinguishes four concepts.
 | Assurance Policy    | The applicable requirements for provenance, integrity, uniqueness, continuity, and review  |
 | Assurance Outcome   | The documented result made available to an authorized decision process                     |
 
+## Related terms
+
+* **Assurance outcome** is the general term in this model: the documented result made available to an authorized decision process.
+* **Admissibility outcome** is the specific assurance outcome that evidence verification produces. It states what was and was not verified.
+* **Evidentiary assurance** names the layer that produces these outcomes about a physical claim. It is distinct from authorization and from institutional recognition. See [Trust Boundaries Across the Portfolio](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/trust-boundaries).
+
 ## Composite evidence
 
 High-consequence decisions should not depend blindly on a single observation. Depending on context, an evidence set may draw from complementary physical, operational, documentary, spatial, temporal, or custody information.
