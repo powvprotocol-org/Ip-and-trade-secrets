@@ -7,7 +7,7 @@ icon: shield-halved
 
 # PoWV EdgeGuard
 
-**PoWV EdgeGuard** is a proposed platform for operational security and trust. Its authorization decision depends on the submitted evidence, the device's condition and the action requested.
+**PoWV EdgeGuard** is a proposed platform for operational security and trust. It addresses a question that the Protocol Suite deliberately leaves open: **given the submitted evidence, the condition of the device and the action requested, may that action proceed now?**
 
 The Protocol Suite verifies evidence. EdgeGuard decides how far an operation may rely on it, and keeps a record of why.
 
