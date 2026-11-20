@@ -2,7 +2,7 @@
 
 ## Bench Development Record — PoC in Progress
 
-Today I advanced another stage of the PoWV proof of concept, working on electrical and logical validation of the edge layer with an ESP32 and auxiliary communication modules.
+Gabriel de Almeida Santos Silva reports electrical and logical testing of the PoWV edge layer using an ESP32 and auxiliary communication modules.
 
 At this stage, the focus is not on appearance, a finished product or a final circuit board. The objective is more fundamental and more important: ensuring that every pin, interface and reading responds predictably before integrating the next system components.
 
