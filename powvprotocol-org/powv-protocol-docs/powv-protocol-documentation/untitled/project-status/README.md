@@ -35,6 +35,18 @@ This milestone extends the public record beyond software simulation. It does not
 
 The software audit and physical experiment have different scopes; the software test counts above do not include the physical experiment.
 
+## Software engineering update: November 20, 2026
+
+A separate, dated record summarizes later software-only engineering work:
+
+* security hardening;
+* cross-language conformance testing;
+* contract governance.
+
+The work is **experimental**: it is unmerged, not released and not production-qualified. It includes no physical-hardware validation and does not re-validate the September records above.
+
+- [November 2026 Software Engineering Update](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md)
+
 ## Maturity view
 
 #### Institutional thesis
@@ -74,7 +86,7 @@ The software audit and physical experiment have different scopes; the software t
 
 #### End-to-end integration
 
-* **Public status:** Not validated in the latest audit
+* **Public status:** Not validated in the September 6 audit
 * **Meaning:** Running services and persistent integration state were outside the audit scope
 
 ***
