@@ -23,11 +23,11 @@ The repository owner confirmed the GitBook connection was resolved on November 1
 | PoWV Protocol | [Protocol documentation](powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/) |
 | Technology | [Technology](powvprotocol-org/powv-protocol-docs/technology/) |
 | Applications & Trust | [Applications & Trust](powvprotocol-org/powv-protocol-docs/applications-and-trust/) |
-| Product Proposals | `powvprotocol-org/powv-protocol-docs/product-proposals/` (configured sync directory) |
+| Product Proposals | [Product Proposals](powvprotocol-org/powv-protocol-docs/product-proposals/) |
 
 Edit the synchronized source for documentation updates. The related documentation paths in the organization's `.github` repository are maintained as links to this source, rather than independent copies. Do not move or delete synchronized directories until the GitBook connection has been migrated and verified.
 
-The Product Proposals entry records the configured connection; it does not assert that its directory is present in the current Git tree.
+The Product Proposals source was restored to Git on the date of this change. Its historical page, *Product Architecture Preview* (GitBook revision of November 4, 2026), is preserved at its original path. Every synchronized space must have its source directory present in Git: a Git Sync import from a commit that lacks a mapped directory empties the corresponding GitBook space.
 
 ---
 **Corporate Governance and IP Ownership**
